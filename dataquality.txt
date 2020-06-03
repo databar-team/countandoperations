@@ -1,13 +1,16 @@
 Model for Company
 
-1.STAFF
--staff_name (string) - Colon for names of our employees
--staff_age (int) - Age of our employees
+1.INFORMATION
+-Year (int) - Year
+-Industry_name_NZSIOC (String) - Name of industry
+-Industry_code_NZSIOC (int) - Code for given indrustry
 
 2.PROPERTIES
--property_name (string) - What is name of our property
--property_address - address of our property
--status (string) - is it sold yet
+-Units (string) - EUR/DOLAR
+-Variable_code(int) - Code for given Variable
+-Variable_name(string) - Variable name
+-Variable_category(string) - Category of variable
+-Value (int) - Value of variable 
 
 3.TRACKING
 -last_save (int) - date when we last save this file
